@@ -1,0 +1,23 @@
+﻿<Window x:Class="HW2_conteiner.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HW2_conteiner"
+        mc:Ignorable="d"
+        Title="Window3" Height="300" Width="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="130"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition ></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Button Grid.Column="0"
+                Content="Button1" Click="Button_Click3"/>
+        <Button Grid.Column="1" Click="Button_Click3"
+                >Button2 with long text</Button>
+        <Button Grid.Column="2"
+                Content="Button3" Click="Button_Click3"/>
+
+    </Grid>
+</Window>

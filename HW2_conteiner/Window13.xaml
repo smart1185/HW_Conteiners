@@ -1,0 +1,19 @@
+﻿<Window x:Class="HW2_conteiner.Window13"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HW2_conteiner"
+        mc:Ignorable="d"
+        Title="Window13" Height="300" Width="300">
+    <Grid>
+        <WrapPanel>
+            <Button Content="Test button 1" Click="Button_Click13"/>
+            <Button Content="Test button 2" Click="Button_Click13"/>
+            <Button Content="Test button 3" Click="Button_Click13"/>
+            <Button Content="Test button 4" Height="30" Click="Button_Click13"/>
+            <Button Content="Test button 5" Height="30" Click="Button_Click13"/>
+            <Button Content="Test button 6" Height="30" Click="Button_Click13"/>
+        </WrapPanel>
+    </Grid>
+</Window>
